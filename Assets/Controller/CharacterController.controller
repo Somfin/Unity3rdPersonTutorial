@@ -37,7 +37,7 @@ BlendTree:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Locomotion
+  m_Name: Running
   m_Childs:
   - m_Motion: {fileID: 7400002, guid: f2bed5dc5afacff44a00de8daae9703b, type: 3}
     m_Threshold: -1
@@ -151,13 +151,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110275874}
-      second:
-      - {fileID: 110100000}
-    data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110108239}
+    data:
+      first: {fileID: 110275874}
+      second:
+      - {fileID: 110100000}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 48, y: 24, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
